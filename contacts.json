@@ -1,0 +1,23 @@
+{
+    "contact": {
+        "firstName": "Jorge",
+        "lastName": "Murcia",
+        "email": "jorgemurcia@email.com",
+        "favoriteColor": "Blue",
+        "birthday": "08/20/1996"
+    },
+     "contact2": {
+        "firstName": "Kate",
+        "lastName": "DeLeon",
+        "email": "katedeleon@email.com",
+        "favoriteColor": "Turquoise",
+        "birthday": "08/23/1996"
+    },
+     "contact3": {
+        "firstName": "Sarah",
+        "lastName": "Shirley",
+        "email": "sarahshirley@email.com",
+        "favoriteColor": "Green",
+        "birthday": "01/12/2001"
+    }
+}
