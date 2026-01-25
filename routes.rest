@@ -13,19 +13,19 @@ content-type: application/json
     "firstName": "Kate",
     "lastName": "DeLeon",
     "email": "katedeleon@email.com",
-    "favoriteColor": "Lilac",
+    "favoriteColor": "Orange",
     "birthday": "08/23/1996"
 }
 ###
-PUT http://localhost:8080/contacts/69759cdb1ad9fc0c04dfc911 HTTP/1.1
+PUT http://localhost:8080/contacts/6975b09f701c7196514941a8 HTTP/1.1
 content-type: application/json
 
 {
     "firstName": "Kate",
     "lastName": "DeLeon",
     "email": "katedeleon@email.com",
-    "favoriteColor": "Turquoise",
+    "favoriteColor": "Orange",
     "birthday": "08/23/1996"
 }
 ###
-DELETE http://localhost:8080/contacts/69759cdb1ad9fc0c04dfc911 HTTP/1.1
+DELETE http://localhost:8080/contacts/6975b09f701c7196514941a8 HTTP/1.1
