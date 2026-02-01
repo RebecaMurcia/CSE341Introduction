@@ -1,0 +1,31 @@
+GET http://localhost:8080/contacts
+###
+GET http://localhost:8080/contacts/69747f859f2c4b7d932367d8
+###
+GET http://localhost:8080/contacts/69747fd69f2c4b7d932367da
+###
+GET http://localhost:8080/contacts/697480069f2c4b7d932367dc
+###
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Kate",
+    "lastName": "DeLeon",
+    "email": "katedeleon@email.com",
+    "favoriteColor": "Orange",
+    "birthday": "08/23/1996"
+}
+###
+PUT http://localhost:8080/contacts/6975b43c701c7196514941ab HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Kate",
+    "lastName": "DeLeon",
+    "email": "katedeleon@email.com",
+    "favoriteColor": "Orange",
+    "birthday": "08/23/1996"
+}
+###
+DELETE http://localhost:8080/contacts/6975b43c701c7196514941ab HTTP/1.1
